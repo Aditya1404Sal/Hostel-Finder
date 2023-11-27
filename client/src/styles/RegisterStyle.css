@@ -1,0 +1,37 @@
+.form-container {
+  background: linear-gradient(to bottom, #85f4fa, #856bfb);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 10px;
+  width: 500px;
+  margin: 10px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y:scroll;
+}
+.form-container h1{
+  color: black;
+}
+
+.specific{
+  width: 85%;
+}
+
+.buttun{
+  width: 50px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.buttunR{
+  width: 70px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: #fff;
+}
