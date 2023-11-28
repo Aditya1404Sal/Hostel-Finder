@@ -83,19 +83,31 @@ function HostelRegistrationPage() {
     <FormItem label="Address*" name="location" >
       <Input type='text' required/>
     </FormItem>
+    <FormItem label="Landmark*" name="landmark" >
+      <Input type='text' required/>
+    </FormItem>
+    <FormItem label="Description of your hostel*" name="description" >
+      <Input type='text' required/>
+    </FormItem>
     <FormItem label="Pincode*" name="pincode" >
       <Input type='text' pattern="[0-9]{6}" required/>
     </FormItem>
     <FormItem label="Wardens Phone Number*" name="phoneNumber" >
       <Input type='text' pattern="[0-9]{10}" required/>
     </FormItem>
-    <FormItem label="Total Capacity*" name="totalOccupancy" >
+    <FormItem label="Total Capacity for people*" name="totalOccupancy" >
+      <Input type='text' required/>
+    </FormItem>
+    <FormItem label="Total Rooms*" name="totalRoom" >
       <Input type='text' required/>
     </FormItem>
     <FormItem label="Vacancy*" name="vacancy" >
       <Input type='text' required/>
     </FormItem>
     <FormItem label="People per room*" name="perRoomCount" >
+      <Input type='text' required/>
+    </FormItem>
+    <FormItem label="Full Rooms available*" name="roomAvailable" >
       <Input type='text' required/>
     </FormItem>
     <FormItem label="Annual rent*" name="AnnualRent" >

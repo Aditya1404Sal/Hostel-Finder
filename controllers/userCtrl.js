@@ -65,7 +65,7 @@ const RegisterController = async (req,res) => {
         const salt = await bcrypt.genSalt(10)
         const hashedPassword = await bcrypt.hash(password,salt)
         req.body.password = hashedPassword
-        //replacing entered password with encrypted password
+        //replacing entered password with encrypted password for security purposes
         const newUser = new userModel(req.body)
         newUser.user_id = newUser.id
         await newUser.save();

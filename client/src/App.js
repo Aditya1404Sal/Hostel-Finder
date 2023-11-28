@@ -6,7 +6,6 @@ import { useSelector } from 'react-redux';
 import Spinner from './components/spinner';
 import ProtectedRoute from './components/ProtectedRoute';
 import PublicRoute from './components/PublicRoute';
-
 import Landing from './pages/Landing';
 import HostelRegistrationPage from './pages/HostelRegistrationPage';
 import HostelInfoPage from './pages/HostelInfoPage';

@@ -35,7 +35,7 @@ function HostelInfoPage() {
         <div className="full-page">
         <div className="navbar">
             <div>
-                <a href='/Landing'><img src={require('../images/Logo.png')} alt="" width="100px" /></a>
+                <a href='/'><img src={require('../images/Logo.png')} alt="" width="100px" /></a>
             </div>
             <div className="nav-search">
                 <div className="search-bar">

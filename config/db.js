@@ -11,4 +11,4 @@ const connectDB = async() =>{
 }
 
 module.exports = connectDB;
-//establishes connection with mongoDB 
+//This establishes connection with mongoDB 

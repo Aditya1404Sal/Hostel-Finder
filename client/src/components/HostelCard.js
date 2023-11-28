@@ -17,7 +17,7 @@ const HostelCard = ({ hostel , onClick}) => {
             </div>
             </div>
             </main>
-  );
+  ); 
 };
 
 export default HostelCard;

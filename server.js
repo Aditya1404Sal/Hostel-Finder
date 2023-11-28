@@ -10,11 +10,9 @@ const { createServer } = require('http');
 
 dotenv.config();
 
-//mongo db connection 
+//this will establish mongo-db connection 
 
 connectDB();
-
-//rest object
 
 const app = express();
 app.use(express.json());
@@ -27,7 +25,7 @@ const io = new Server(httpserver,{
     credentials:true
   },
 });
-//websocket
+//websocket WIP
 
 io.on('connection', socket => {
 
@@ -48,6 +46,7 @@ console.log(`websocket initialised on port ${wsPort}`.bgMagenta)
 //routes
 
 app.use('/api/v1/user',require('./routes/userRoutes'));
+
 //port 
 
 const port = process.env.PORT
@@ -55,5 +54,4 @@ const port = process.env.PORT
 //server listener 
 app.listen(port,()=>{
     console.log(`server is running in ${process.env.DEV_MODE} mode on port ${process.env.PORT}`.bgGreen.bgWhite);
-});
-//build react interface next 
+}); 
