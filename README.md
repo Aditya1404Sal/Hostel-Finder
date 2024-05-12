@@ -4,7 +4,6 @@
 
 ### Supports only Desktop view
 
-### This project is still in progress & Here are some features that need to be incorporated
 
 
 
